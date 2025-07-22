@@ -38,9 +38,9 @@
     "@radix-ui/react-toggle-group": "1.1.1",
     "@radix-ui/react-tooltip": "1.1.6",
     "@sanity/client": "latest",
-    "@sanity/image-url": "latest",
+    "@sanity/image-url": "1",
     "@sanity/ui": "latest",
-    "@sanity/vision": "latest",
+    "@sanity/vision": "^3.99.0",
     "autoprefixer": "^10.4.20",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -50,7 +50,7 @@
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
     "next": "15.2.4",
-    "next-sanity": "latest",
+    "next-sanity": "^9.12.3",
     "next-themes": "^0.4.4",
     "react": "^19",
     "react-day-picker": "8.10.1",
@@ -58,9 +58,9 @@
     "react-hook-form": "^7.54.1",
     "react-resizable-panels": "^2.1.7",
     "recharts": "2.15.0",
-    "sanity": "latest",
+    "sanity": "^3.99.0",
     "sonner": "^1.7.1",
-    "styled-components": "latest",
+    "styled-components": "6",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.6",
@@ -73,5 +73,6 @@
     "postcss": "^8.5",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184"
 }
