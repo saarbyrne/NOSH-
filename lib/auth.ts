@@ -8,6 +8,7 @@ export const isAuthenticated = (): boolean => {
 export const logout = (): void => {
   if (typeof window !== "undefined") {
     localStorage.removeItem("nosh-auth")
+    window.location.href = "/login"
   }
 }
 
@@ -20,4 +21,9 @@ export const login = (email: string, password: string): boolean => {
     return true
   }
   return false
+}
+
+export const getAuthToken = (): string | null => {
+  if (typeof window === "undefined") return null
+  return localStorage.getItem("nosh-auth")
 }
